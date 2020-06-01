@@ -1,8 +1,4 @@
-from setup import consumer_key, consumer_secret, access_token, access_token_secret
-import tweepy
-import geopy
-from geopy.geocoders import Nominatim
-import pandas as pd
+from setup import *
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
